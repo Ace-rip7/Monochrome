@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+}
+
+.hero {
+    background-image: url(asset/bg-image-hero.png);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.div-hero {
+    justify-content: left;
+    align-items: center;
+    color: azure;
+    padding: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
