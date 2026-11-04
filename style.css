@@ -91,7 +91,13 @@ section {
     justify-content: center;
 }
 
-
+.button {
+    border: solid 10px;
+    border-color: gray;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+}
 
 /* .text-align-center {
     text-align: center;
