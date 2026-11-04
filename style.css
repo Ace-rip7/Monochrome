@@ -69,11 +69,30 @@ section {
     background-position: center;
     display: flex;
     align-items: center;
-    flex-flow: column;
 }
 
 .images {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
+
+.partners a {
+    display: inline-block;
+    margin-top: 150px;
+    border: solid 10px;
+    border-color: white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* .text-align-center {
+    text-align: center;
+} */
