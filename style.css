@@ -30,13 +30,50 @@ a {
     background-size: cover;
     height: 500px;
     background-position: center;
+    display: flex;
+    align-items: center;
 }
 
-.div-hero {
-    justify-content: left;
-    align-items: center;
+.background-image-content {
     color: azure;
-    padding: 120px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+section {
+    height: 500px;
+}
+
+.container-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: gray;
+}
+
+.article {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    font-size: 17px;
+}
+
+.partners {
+    background-image: url(asset/bg-image-2.png);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
